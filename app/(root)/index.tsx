@@ -10,7 +10,7 @@ import { Ionicons } from '@expo/vector-icons'
 import BalanceCard from "../../components/BalanceCard"
 import {TransactionItem} from '@/components/TransactionItem'
 import NoTransactionsFound from '@/components/NoTransactionsFound'
-import CreateScreen from './CreateScreen'
+
 export default function Page() {
   const { user } = useUser()
   const router = useRouter();
